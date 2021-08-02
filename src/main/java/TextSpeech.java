@@ -14,7 +14,7 @@ import java.io.IOException;
 import java.util.List;
 
 
-public class TextTranslate {
+public class TextSpeech {
     public static void main(String[] args) throws IOException {
 
         GoogleCredentials credentials =
