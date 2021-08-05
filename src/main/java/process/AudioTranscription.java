@@ -1,3 +1,4 @@
+package process;
 
 import com.google.cloud.speech.v1p1beta1.*;
 import com.google.protobuf.ByteString;
@@ -7,10 +8,12 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 public class AudioTranscription {
-
-    String transcription;
-
     public   AudioTranscription(){}
+
+    private String transcription;
+    public String getTranscription() {
+        return transcription;
+    }
 
     /**
      *
@@ -49,6 +52,7 @@ public class AudioTranscription {
             System.err.println("Failed to create the client due to: " + exception);
         }
     }
+
 
 
 }
