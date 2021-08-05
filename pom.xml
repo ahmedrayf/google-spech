@@ -25,6 +25,14 @@
             <groupId>com.google.cloud</groupId>
             <artifactId>google-cloud-speech</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>com.google.cloud</groupId>
+            <artifactId>google-cloud-translate</artifactId>
+        </dependency>
+
+
+
     </dependencies>
 
     <properties>
